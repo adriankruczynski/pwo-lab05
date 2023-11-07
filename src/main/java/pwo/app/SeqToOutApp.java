@@ -17,7 +17,7 @@ return seqType != null && from >= 0 && to >= 0;
 
 
 @Override
-protected boolean wirteSeq() {
+protected boolean wirteSeg() {
 System.out.println(SequenceTools.getTermsAsColumn(
 seqType.getGenerator(), from, to));
 
@@ -37,5 +37,5 @@ System.out.println("!Illegal arguments\n"
 return;
 }
 
- wirteSeq();
+ wirteSeg();
 }}

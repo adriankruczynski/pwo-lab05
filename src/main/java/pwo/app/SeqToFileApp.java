@@ -26,7 +26,7 @@ package pwo.app;
  return seqType != null && from >= 0 && to >= 0;
  }
 
- protected boolean wirteSeq() {
+ protected boolean wirteSeg() {
  return SequenceTools.writeToFile(seqType.getGenerator(),
  from, to, fileName);
  }
@@ -40,7 +40,7 @@ package pwo.app;
  return;
  }
 
- if (!wirteSeq()) {
+ if (!wirteSeg()) {
  System.out.println("!Write to the file: "
  + fileName + " FAILED");
  return;
